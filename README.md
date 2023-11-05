@@ -23,6 +23,6 @@ echo $default_site_hostname
 
 After provisioning
 ---
-Is the provision successed, it will show the URL of your webapps <u>xxxx.azurewebsites.net</u>
-But the wordpress installation is not yet ready. You may need to wait for 5 minutes.
-And then open the browser and visit the URL generated as output in provisioning step.
+Is the provision successed, it will show the URL of your webapps xxxx.azurewebsites.net<br />
+But the wordpress installation is not yet ready. You may need to wait for 5 minutes.<br />
+And then open the browser and visit the URL generated as output in provisioning step.<br />
