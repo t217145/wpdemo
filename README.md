@@ -6,7 +6,7 @@ Prerequisite
 
 Before run
 ---
-After git clone this repo, <span style='color: red;'><b>change the MySQL password in <u>docker-compose.yml</u> file</b>.</span>
+After git clone this repo, <span style='color: red;'><b>change the MySQL password in <u>docker-compose.yml</u> file</b></span>, and corresponding variables in <b>variables.tf</b> to avoid name crash.
 
 Code to run
 ---
