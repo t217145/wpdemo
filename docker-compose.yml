@@ -9,6 +9,8 @@ services:
       MYSQL_DATABASE: wpdemo
       MYSQL_USER: wpdemo
       MYSQL_PASSWORD: A123456b
+    volumes:
+      - my-datavolume:/var/lib/mysql    
     networks:
       - wpdemo
   wordpress:
@@ -22,8 +24,13 @@ services:
       WORDPRESS_DB_NAME: wpdemo
     restart: always
     ports:
-      - "80:80"
+      - "8081:80"
     networks:
       - wpdemo
+    volumes:
+      - wp-content:/var/www/html/wp-content
 networks:
   wpdemo:
+volumes:
+  my-datavolume:
+  wp-content: 

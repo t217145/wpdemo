@@ -4,7 +4,7 @@ variable "sku" {
 }
 
 variable "webapp_suffix" {
-  default     = "cyrus-nov-2023"
+  default     = "cyrus"
   description = "The Web app name"
 }
 
